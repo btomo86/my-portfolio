@@ -41,9 +41,14 @@ nav {
     letter-spacing: 3px;
     font-weight: bold;
 }
-    .main-header {
-        font-size: 80%:
-        color: #66FCF1
+ .main-header {
+    color: #66FCF1;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    position:relative; top:300px;
+    text-decoration: underline #C5C6C7;
         
     }
 
@@ -68,4 +73,116 @@ h1 {
 
 .p2 {
     color: #C5C6C7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 10px;
 }
+
+   
+    
+}
+
+.p1 {
+    color: #C5C6C7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.form {
+    color: white;
+    text-align: center;
+
+}
+
+.contact {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color:#C5C6C7;
+    font-weight: bold;
+    position:relative; top: 10px;
+
+}
+
+.button {
+    text-align: center;
+    background-color: #66FCF1;
+    font-size: 16px;
+    border-radius: 50%;
+}
+
+ .info {
+     color: #66FCF1;
+     position:relative; left: 68%;
+     position:relative; bottom: 100px;
+     font-size: 20px;
+ }
+
+ .info li {
+     list-style: square;
+ }
+
+ .p2 {
+    width: 500px;
+    border: 15px solid transparent;
+    padding: 50px;
+    margin: 20px;
+    position: relative; left: 32%;
+    position: relative; bottom: 100px;
+ }
+
+ .burger {
+     display: none;
+
+ }
+
+ .burger div {
+     width: 25px;
+     height: 3px;
+     background-color: #66FCF1;
+     margin: 5px;
+ }
+ @media screen and (max-width:1024px) {
+     .nav-links {
+         width: 60%;
+
+}
+ @media screen and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-links {
+         position: absolute;
+         right: 0px;
+         height: 92vh;
+         top: 8vh;
+         background-color: #45A29E;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 50%
+         transform: translatex(100%);
+         transmition: transform: 0.5s ease-in;}
+
+ 
+ .nav-links li {
+     opacity: 0;
+ }
+.burger {
+    display: block;
+
+}
+
+    .nav-active {
+        transform: translateX(0%);
+    }
+
+   
+
+}
+
+ 
